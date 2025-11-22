@@ -1,9 +1,9 @@
+import java.util.Scanner;
 public class Main{
-    public static void main(String[] args){
-        // System.out.println("heelo world");
-        // int age=1;
-        // int year = 2025;
-        // System.out.println(year);  
-        
+    public static void main(String[] args){  
+        Scanner sc =new Scanner(System.in);
+        // System.out.println("Enter your name:");
+        // sc.nextLine();
+        sc.close();
     }
 }
