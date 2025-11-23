@@ -1,9 +1,29 @@
 import java.util.Scanner;
-public class Main{
-    public static void main(String[] args){  
-        Scanner sc =new Scanner(System.in);
-        // System.out.println("Enter your name:");
-        // sc.nextLine();
-        sc.close();
-    }
-}
+//public class Main{
+    // public static void main(String[] args){  
+    //     Scanner sc =new Scanner(System.in);
+    //     String noun1;
+    //     String adjective2;
+    //     String adjective1;
+    //     String verb1;
+    //     String adjective3;
+    //     String adjective4;
+    //     System.out.println("Enter an adjective:");
+    //     adjective1 = sc.nextLine();
+    //     System.out.println("Enter an adjective:");
+    //     adjective2 = sc.nextLine();
+    //     System.out.println("Enter an adjective:");
+    //     adjective3 = sc.nextLine();
+    //     System.out.println("Enter an adjective:");
+    //     adjective4 = sc.nextLine();
+    //     System.out.println("Enter an noun:");
+    //     noun1 = sc.nextLine();
+    //     System.out.println("Enter an verb:");
+    //     verb1 = sc.nextLine();
+    //     System.out.println("hello " + noun1 +"!");
+    //     System.out.println("I " +verb1+ " tell  u a story.");
+    //     System.out.println("A "+ adjective1 + " " + adjective2+" story!!" );
+    //     System.out.println("Hope u enjoy it " + adjective3 +" much this "+adjective4+" story!!");
+    //     sc.close();
+    // }
+//}
