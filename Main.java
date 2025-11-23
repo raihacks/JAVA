@@ -1,4 +1,4 @@
-import java.util.Random;
+import java.util.Scanner;
 //public class Main{
     // public static void main(String[] args){  
     //     Scanner sc =new Scanner(System.in);
@@ -68,3 +68,22 @@ import java.util.Random;
 //         System.out.println(number);
 //     }
 // }
+
+// public class Main{
+//     public static void main(String[] args){
+//         // System.out.println(Math.PI);
+//         // System.out.println(Math.E);
+//         // double result;
+//         // result = Math.abs(-2);
+//         // System.out.println(result);
+//         Scanner sc= new Scanner(System.in);
+//         System.out.println("Enter the hight of tirangle: ");
+//         Double a= sc.nextDouble();
+//         System.out.println("Enter the base of tirangle: ");
+//         Double b= sc.nextDouble();
+//         Double result=Math.sqrt(Math.pow(a,2)+Math.pow(b,2));
+//         System.out.println("the Hypotenuse is " + result);
+//         sc.close();
+//     }
+// }
+
