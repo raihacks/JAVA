@@ -27,3 +27,24 @@ import java.util.Scanner;
     //     sc.close();
     // }
 //}
+
+// public class Main{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("what would u like to buy?");
+//         String food=sc.nextLine();
+//         System.out.println("what is the price for each?");
+//         Double price = sc.nextDouble();
+//         System.out.println("how many wold u like?");
+//         int net = sc.nextInt();
+//         Double total= (net * price);
+//         System.out.println("You have bought "+net+" "+food+"/s");
+//         System.out.println("your total is $"+total);
+//     }
+// }
+
+public class Main{
+    public static void main(String[] args){
+
+    }
+}
