@@ -40,11 +40,23 @@ import java.util.Scanner;
 //         Double total= (net * price);
 //         System.out.println("You have bought "+net+" "+food+"/s");
 //         System.out.println("your total is $"+total);
+//         sc.close();
 //     }
 // }
 
-public class Main{
-    public static void main(String[] args){
+// public class Main{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("plesea enter your name:");
+//         String name = sc.nextLine();
+//         System.out.print("plesea enter your age:");
+//         int age = sc.nextInt();
+//         if(age>=18){
+//             System.out.println("welcome!! "+name);
+//         }
+//         else{
+//             System.out.println("ur underage!!");
+//         }
+//     }
+// }
 
-    }
-}
