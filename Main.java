@@ -92,18 +92,29 @@ import java.util.Scanner;
 //     }
 // }
 
+// public class Main{
+//     public static void main(String[] args){
+//         String name = "Anya";
+//         char firstletter = 'A';
+//         int age = 6;
+//         double hight = Math.floor(99.5);
+//         boolean isStudent = true;
+//         System.out.printf("Hello %s!\n", name);
+//         System.out.printf("The first letter of ur name is: %c\n", firstletter);
+//         System.out.printf("You are %d years old.\n", age);
+//         System.out.printf("You'er %.2f cm tall.\n", hight);
+//         System.out.printf("Is %s a student: %b\n", name, isStudent);
+//         System.out.printf("%s is %d years old.\n", name, age);
+//     }
+// }
+
 public class Main{
     public static void main(String[] args){
-        String name = "Anya";
-        char firstletter = 'A';
-        int age = 6;
-        double hight = Math.floor(99.5);
-        boolean isStudent = true;
-        System.out.printf("Hello %s!\n", name);
-        System.out.printf("The first letter of ur name is: %c\n", firstletter);
-        System.out.printf("You are %d years old.\n", age);
-        System.out.printf("You'er %f cm tall.\n", hight);
-        System.out.printf("Is %s a student: %b\n", name, isStudent);
-        System.out.printf("%s is %d years old.\n", name, age);
+        double price1 = 1200.60;
+        double price2 = 3400000.87;
+        double price3 = -890000000.34;
+        System.out.printf("%,.2f\n", price1);
+        System.out.printf("%,.2f\n", price2);
+        System.out.printf("%,.2f\n", price3);
     }
 }
