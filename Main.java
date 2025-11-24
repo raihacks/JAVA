@@ -87,3 +87,22 @@ import java.util.Scanner;
 //     }
 // }
 
+// public class Main{
+//     public static void main(String[] args){
+//     }
+// }
+
+public class Main{
+    public static void main(String[] args){
+        String name = "Anya";
+        char firstletter = 'A';
+        int age = 6;
+        double hight = Math.floor(99.5);
+        boolean isStudent = true;
+        System.out.printf("Hello %s\n",name);
+        System.out.printf("The first letter of ur name is: %c\n",firstletter);
+        System.out.printf("You are %d years old.\n",age);
+        System.out.printf("You'er %f cm tall.\n",hight);
+
+    }
+}
