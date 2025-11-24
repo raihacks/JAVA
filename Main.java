@@ -108,13 +108,24 @@ import java.util.Scanner;
 //     }
 // }
 
-public class Main{
-    public static void main(String[] args){
-        double price1 = 1200.60;
-        double price2 = 3400000.87;
-        double price3 = -890000000.34;
-        System.out.printf("%,.2f\n", price1);
-        System.out.printf("%,.2f\n", price2);
-        System.out.printf("%,.2f\n", price3);
-    }
-}
+// public class Main{
+//     public static void main(String[] args){
+//         double price1 = 1200.60;
+//         double price2 = 3400000.87;
+//         double price3 = -890000000.34;
+//         System.out.printf("%,.2f\n", price1);
+//         System.out.printf("%,.2f\n", price2);
+//         System.out.printf("%,.2f\n", price3);
+//     }
+// }
+
+// public class Main{
+//     public static void main(String[] args){
+//         int price1 = 12;
+//         int price2 = 34;
+//         int price3 = -893;
+//         System.out.printf("%04d\n", price1);
+//         System.out.printf("%04d\n", price2);
+//         System.out.printf("%04d\n", price3);
+//     }
+// }
