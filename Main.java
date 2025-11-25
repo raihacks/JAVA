@@ -159,11 +159,11 @@ import java.util.Scanner;
 //        name = name.trim();
 //        name = name.replace("A","S");
 //        System.out.println(name.isEmpty());
-//         String email = "Bro123@gmail.com";
-//         String username = email.substring(0, email.indexOf("@"));
-//         String domain = email.substring(email.indexOf("@"));
-//         System.out.println(username);
-//         System.out.println(domain);
+//        String email = "Bro123@gmail.com";
+//        String username = email.substring(0, email.indexOf("@"));
+//        String domain = email.substring(email.indexOf("@"));
+//        System.out.println(username);
+//        System.out.println(domain);
 //     }
 // }
 
@@ -176,5 +176,6 @@ public class Main{
 
 // public class Main{
 //     public static void main(String[] args){
+
 //     }
 // }
