@@ -151,9 +151,9 @@ import java.util.Scanner;
 //     }
 // }
 
-public class Main{
-    public static void main(String[] args){
-        String name = "  Anyasan  ";
+// public class Main{
+//     public static void main(String[] args){
+        // String name = "  Anyasan  ";
         // int lenght = name.length();
         // char letter = name.charAt(4);
         // int index = name.indexOf("s");
@@ -162,7 +162,18 @@ public class Main{
         // name = name.toLowerCase();
         // name = name.trim();
         // name = name.replace("A","S");
+        // System.out.println(name.isEmpty());
+//         String email = "Bro123@gmail.com";
+//         String username = email.substring(0, email.indexOf("@"));
+//         String domain = email.substring(email.indexOf("@"));
+//         System.out.println(username);
+//         System.out.println(domain);
+//     }
+// }
+
+public class Main{
+    public static void main(String[] args){
+
         
-        System.out.println(name);
     }
 }
