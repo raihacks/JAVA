@@ -124,8 +124,30 @@ import java.util.Scanner;
 //         int price1 = 12;
 //         int price2 = 34;
 //         int price3 = -893;
-//         System.out.printf("%04d\n", price1);
-//         System.out.printf("%04d\n", price2);
-//         System.out.printf("%04d\n", price3);
+//         System.out.printf("%-4d\n", price1);
+//         System.out.printf("%-4d\n", price2);
+//         System.out.printf("%-4d\n", price3);
 //     }
 // }
+
+// public class Main{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         double principal;
+//         double rate;
+//         int compoundYear;
+//         int year;
+//         System.out.println("Enter the principal amount: ");
+//         principal = sc.nextDouble();
+//         System.out.println("Enter the interest rate (in %): ");
+//         rate = sc.nextDouble() / 100;
+//         System.out.println("Enter the # of times comounded per year: ");
+//         compoundYear = sc.nextInt();
+//         System.out.println("Enter the # of years: ");
+//         year = sc.nextInt();
+//         double amount = principal*(Math.pow(1 + (rate/compoundYear),compoundYear*year));
+//         System.out.printf("The amount after %d years is $%.2f.\n",year,amount);
+//         sc.close();
+//     }
+// }
+
