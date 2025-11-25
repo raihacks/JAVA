@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 //public class Main{
     // public static void main(String[] args){  
     //     Scanner sc =new Scanner(System.in);
@@ -89,11 +90,6 @@ import java.util.Scanner;
 
 // public class Main{
 //     public static void main(String[] args){
-//     }
-// }
-
-// public class Main{
-//     public static void main(String[] args){
 //         String name = "Anya";
 //         char firstletter = 'A';
 //         int age = 6;
@@ -153,16 +149,16 @@ import java.util.Scanner;
 
 // public class Main{
 //     public static void main(String[] args){
-        // String name = "  Anyasan  ";
-        // int lenght = name.length();
-        // char letter = name.charAt(4);
-        // int index = name.indexOf("s");
-        // int lastIndex = name.lastIndexOf("n");
-        // name = name.toUpperCase();
-        // name = name.toLowerCase();
-        // name = name.trim();
-        // name = name.replace("A","S");
-        // System.out.println(name.isEmpty());
+//        String name = "  Anyasan  ";
+//        int lenght = name.length();
+//        char letter = name.charAt(4);
+//        int index = name.indexOf("s");
+//        int lastIndex = name.lastIndexOf("n");
+//        name = name.toUpperCase();
+//        name = name.toLowerCase();
+//        name = name.trim();
+//        name = name.replace("A","S");
+//        System.out.println(name.isEmpty());
 //         String email = "Bro123@gmail.com";
 //         String username = email.substring(0, email.indexOf("@"));
 //         String domain = email.substring(email.indexOf("@"));
@@ -174,6 +170,11 @@ import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
 
-        
+
     }
 }
+
+// public class Main{
+//     public static void main(String[] args){
+//     }
+// }
