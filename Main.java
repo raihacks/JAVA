@@ -151,3 +151,18 @@ import java.util.Scanner;
 //     }
 // }
 
+public class Main{
+    public static void main(String[] args){
+        String name = "  Anyasan  ";
+        // int lenght = name.length();
+        // char letter = name.charAt(4);
+        // int index = name.indexOf("s");
+        // int lastIndex = name.lastIndexOf("n");
+        // name = name.toUpperCase();
+        // name = name.toLowerCase();
+        // name = name.trim();
+        // name = name.replace("A","S");
+        
+        System.out.println(name);
+    }
+}
