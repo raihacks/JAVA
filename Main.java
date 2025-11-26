@@ -217,8 +217,8 @@ import java.util.Scanner;
 //     }
 // }
 
-public class Main{
-    public static void main(String[] args){
+// public class Main{
+//     public static void main(String[] args){
         // int score = 30;
         // if(score >= 60){
         //     System.out.println("PASS");
@@ -238,15 +238,27 @@ public class Main{
         // int income = 20000;
         // double taxRate =(income >= 40000) ? 0.25 : 0.15 ;
         // System.out.println(taxRate);
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the temperture");
-        int temp = sc.nextInt();
-        String unit;
-        int newTemp = (unit.equals("C")) ? (temp - 32)*5/9 : (temp * 5/9) + 32;
-        System.out.println("%.1f %s", newTemp, unit);
-        
-        }
-}
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter the temperture");
+        // int temp = sc.nextInt();
+        // System.out.println("Convert to celsius or Fahrenheit? (C or F):");
+        // String unit = sc.nextLine();
+        // int newTemp = (unit.equals("C")) ? (temp - 32)*5/9 : (temp * 5/9) + 32;
+        // System.out.println("%.1f %s", newTemp, unit);
+        // double temp;
+        // double newTemp;
+        // String unit;
+        // System.out.println("Enter the temperture");
+        // temp = sc.nextDouble();
+        // System.out.println("Convert to Celsius or Fahrenheit? (C or F):");
+        // unit = sc.next().toUpperCase();
+        // newTemp = (unit.equals("C")) ? (temp - 32)*5/9 : (temp * 5/9) + 32;
+        // System.out.println("%.1f %s", newTemp, unit);
+        // sc.close();
+        // }
+//}
+
+
 
 // public class Main{
 //     public static void main(String[] args){
