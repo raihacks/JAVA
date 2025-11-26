@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 // public class Main1{
 //     public static void main(String[] args){
 //         Scanner sc = new Scanner(System.in);
@@ -43,9 +44,9 @@ import java.util.Scanner;
 //     }
 // }
 
-public class Main1{
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
+// public class Main1{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
         // String name = "siddhi";
         // while(name.isEmpty()){
         //     System.out.print("Enter your name: ");
@@ -64,14 +65,28 @@ public class Main1{
         //     response = sc.next().toUpperCase();
         // }
         // System.out.println("You have quit playing the game");
-        int age = 0;
-        System.out.print("Enter your age: ");
-        age = sc.nextInt();
-        do{
-            System.out.println("ur not bron yet");
-            System.out.print("Enter your age: ");
-            age = sc.nextInt();
-        }while(age < 0);
-        System.out.println("You are "+age+" years old.");
+//         int age = 0;
+//         System.out.print("Enter your age: ");
+//         age = sc.nextInt();
+//         do{
+//             System.out.println("ur not bron yet");
+//             System.out.print("Enter your age: ");
+//             age = sc.nextInt();
+//         }while(age < 0);
+//         System.out.println("You are "+age+" years old.");
+//     }
+// }
+
+public class Main{
+    public static void main(String[] args){
+        Random random = new Random;
+        Scanner sc = new Scanner(System.in);
+        
     }
 }
+
+// public class Main{
+//     public static void main(String[] args){
+        
+//     }
+// }
