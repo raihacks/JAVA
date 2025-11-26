@@ -42,3 +42,36 @@ import java.util.Scanner;
 //         }
 //     }
 // }
+
+public class Main1{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        // String name = "siddhi";
+        // while(name.isEmpty()){
+        //     System.out.print("Enter your name: ");
+        //     name = sc.nextLine();
+        // }
+        // System.out.println("Hello "+name);
+        // sc.close();
+        // while(1 == 1){
+        //     System.out.println("help!! its a loop!");
+        // }
+
+        // String response = "";
+        // while(!response.equals("Q")){
+        //     System.out.println("You are playing the game");
+        //     System.out.println("Press Q to quit: ");
+        //     response = sc.next().toUpperCase();
+        // }
+        // System.out.println("You have quit playing the game");
+        int age = 0;
+        System.out.print("Enter your age: ");
+        age = sc.nextInt();
+        do{
+            System.out.println("ur not bron yet");
+            System.out.print("Enter your age: ");
+            age = sc.nextInt();
+        }while(age < 0);
+        System.out.println("You are "+age+" years old.");
+    }
+}
