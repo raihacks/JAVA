@@ -188,33 +188,64 @@ import java.util.Scanner;
 //     }
 // }
 
+// public class Main{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Welcome to Weight Conversion Program");
+//         double weight;
+//         double newWeight;
+//         int choice;
+//         System.out.println("1: Convert lbs to kgs");
+//         System.out.println("2:Convert kgs to lbs");
+//         System.out.println("Chosse an option: ");
+//         choice = sc.nextInt();
+//         if(choice==1){
+//             System.out.println("Enter weight in kgs:");
+//             weight = sc.nextDouble();
+//             newWeight = weight * 2.20462;
+//             System.out.printf("the weight in lbs is: %.2f", newWeight);
+//         }
+//         else if(choice==2){
+//             System.out.println("Enter weight in lbs:");
+//             weight = sc.nextDouble();
+//             newWeight = weight * 0.453592;
+//             System.out.printf("the weight in kgs is: %.2f\n", newWeight);
+//         }
+//         else{
+//             System.out.println("Enter the right choice.");
+//         }
+//     }
+// }
+
 public class Main{
     public static void main(String[] args){
+        // int score = 30;
+        // if(score >= 60){
+        //     System.out.println("PASS");
+        // }
+        // else{
+        //     System.out.println("FAIL");
+        // }
+        // int score = 85;
+        // String passOrFail = (score >= 60) ? "PASS" : "FAIL";
+        // System.out.println(passOrFail);
+        // int num = 38;
+        // String evenOrOdd = (num % 2 == 0) ? "EVEN" : "ODD";
+        // System.out.println(evenOrOdd);
+        // int hour = 8;
+        // String timeofDay = (hour < 12) ? "A.M" : "P.M";
+        // System.out.println(timeofDay);
+        // int income = 20000;
+        // double taxRate =(income >= 40000) ? 0.25 : 0.15 ;
+        // System.out.println(taxRate);
         Scanner sc = new Scanner(System.in);
-        System.out.println("Welcome to Weight Conversion Program");
-        double weight;
-        double newWeight;
-        int choice;
-        System.out.println("1: Convert lbs to kgs");
-        System.out.println("2:Convert kgs to lbs");
-        System.out.println("Chosse an option: ");
-        choice = sc.nextInt();
-        if(choice==1){
-            System.out.println("Enter weight in kgs:");
-            weight = sc.nextDouble();
-            newWeight = weight * 2.20462;
-            System.out.printf("the weight in lbs is: %.2f", newWeight);
+        System.out.println("Enter the temperture");
+        int temp = sc.nextInt();
+        String unit;
+        int newTemp = (unit.equals("C")) ? (temp - 32)*5/9 : (temp * 5/9) + 32;
+        System.out.println("%.1f %s", newTemp, unit);
+        
         }
-        else if(choice==2){
-            System.out.println("Enter weight in lbs:");
-            weight = sc.nextDouble();
-            newWeight = weight * 0.453592;
-            System.out.printf("the weight in kgs is: %.2f\n", newWeight);
-        }
-        else{
-            System.out.println("Enter the right choice.");
-        }
-    }
 }
 
 // public class Main{
