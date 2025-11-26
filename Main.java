@@ -258,34 +258,56 @@ import java.util.Scanner;
         // }
 //}
 
+// public class Main{
+//     public static void main(String[] args){
+//         String day = "Tuesday";
+        // if(day.equals("Monday")){
+        //     System.out.println("It is a weekday");
+        // }
+        // else if(day.equals("Tuesday")){
+        //     System.out.println("It is a weekday");
+        // }
+        // else if(day.equals("Wednesday")){
+        //     System.out.println("It is a weekday");
+        // }
+        // else if(day.equals("Thursday")){
+        //     System.out.println("It is a weekday");
+        // }
+        // else if(day.equals("Firday")){
+        //     System.out.println("It is a weekday");
+        // }
+        // else if(day.equals("Saterday")){
+        //     System.out.println("It is a NOT weekend");
+        // }
+        // else if(day.equals("Sunday")){
+        //     System.out.println("It is a NOT weekend");
+        // }
+        // else{
+        //     System.out.println("Enter the right day");
+        // }
+        // switch(day){
+        //     case "Monday" -> System.out.println("It is a weekend");
+        //     case "Tuesday" -> System.out.println("It is a weekend");
+        //     case "Wednesday" -> System.out.println("It is a weekend");
+        //     case "Thursday" -> System.out.println("It is a weekend");
+        //     case "Firday" -> System.out.println("It is a weekend");
+        //     case "Saterday" -> System.out.println("It is a NOT weekend");
+        //     case "Sunday" -> System.out.println("It is a NOT weekend");
+        //     default -> System.out.println(day + " is not a day.");
+        // }
+//         switch(day){
+//             case "Monday", "Tuesday", "Wednesday", "Thursday", "Firday" ->
+//                 System.out.println("It is a weekend");
+//             case "Saterday", "Sunday" ->
+//                 System.out.println("It is a weekend");
+//             default -> System.out.println(day + " is not a day.");
+//         }
+//     }
+// }
+
 public class Main{
     public static void main(String[] args){
-        String day = "Monday";
 
-        if(day.equals("Monday")){
-            System.out.println("It is a weekday");
-        }
-        else if(day.equals("Tuesday")){
-            System.out.println("It is a weekday");
-        }
-        else if(day.equals("Wednesday")){
-            System.out.println("It is a weekday");
-        }
-        else if(day.equals("Thursday")){
-            System.out.println("It is a weekday");
-        }
-        else if(day.equals("Firday")){
-            System.out.println("It is a weekday");
-        }
-        else if(day.equals("Saterday")){
-            System.out.println("It is a NOT weekend");
-        }
-        else if(day.equals("Sunday")){
-            System.out.println("It is a NOT weekend");
-        }
-        else{
-            System.out.println("Enter the right day");
-        }
     }
 }
 
