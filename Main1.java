@@ -159,6 +159,28 @@ import java.util.Random;
 //     }
 // }
 
+// public class Main1{
+//     public static void main(String[] args){
+        // String name = "Bro";
+        // int age = 12;
+        // happyBirthday(name, age);
+        // happyBirthday(name, age);
+        // happyBirthday(name, age);
+        // double result = square(9);
+        // System.out.println(result);
+//     }
+//     static void happyBirthday(String name,int age){
+//         System.out.println("Happy birthday to you!");
+//         System.out.println("Happy birthday to you!");
+//         System.out.printf("Happy birthday dear, %s!" ,name);
+//         System.out.println("Happy birthday to you!");
+//         System.out.printf("Youe'r %d years old.\n" ,age);
+//     }
+//     static double square(double number){
+//         return number * number;
+//     }
+// }
+
 public class Main1{
     public static void main(String[] args){
         
