@@ -181,6 +181,16 @@ import java.util.Random;
 //     }
 // }
 
+// public class Main1{
+//     public static void main(String[] args){
+//         System.out.println(agecheck(289));
+//     }
+//     static boolean agecheck(int age){
+//         boolean isAdult = age >=18;
+//         return isAdult;
+//     }
+// }
+
 public class Main1{
     public static void main(String[] args){
         
