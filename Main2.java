@@ -117,97 +117,105 @@
 //     }
 // }
 
-public class Main2{
-    static Scanner sc = new Scanner(System.in);
-    static Random random = new Random();
-    public static void main(String[] args){
-        // DICE ROLLER
-        int n;
-        int totaln=0;
-        System.out.println("Enter your number of dice: ");
-        n = sc.nextInt();
-        if(n>0){
-            for(int i =0; i < n; i++){
-                int roll = random.nextInt(1,7);
-                printDie(roll);
-                System.out.println("You rolled: "+ roll);
-                totaln += roll;
-                //System.out.println("Total number of rolls is: "+totaln);
-            }
-            System.out.println("Total number of rolls is: "+totaln);
-        }
-        else{
-            System.out.println("Number of dice can not be less than 0. Please re enter");
-        }
+// public class Main2{
+//     static Scanner sc = new Scanner(System.in);
+//     static Random random = new Random();
+//     public static void main(String[] args){
+//         // DICE ROLLER
+//         int n;
+//         int totaln=0;
+//         System.out.println("Enter your number of dice: ");
+//         n = sc.nextInt();
+//         if(n>0){
+//             for(int i =0; i < n; i++){
+//                 int roll = random.nextInt(1,7);
+//                 printDie(roll);
+//                 System.out.println("You rolled: "+ roll);
+//                 totaln += roll;
+//                 //System.out.println("Total number of rolls is: "+totaln);
+//             }
+//             System.out.println("Total number of rolls is: "+totaln);
+//         }
+//         else{
+//             System.out.println("Number of dice can not be less than 0. Please re enter");
+//         }
 
-        System.out.println(" ");
-        // DECLARE VARIABLES
-        // GET # OF DICE FROM USER
-        // CHECK IF # OF DICE > 0
-        // ROLL ALL DICE
-        // GET THE TOTAL
-        // DISPALY ASSII OF DICE
-    }
-    static void printDie(int roll){
-        String dice1 = """   
-                 -------
-                |       |
-                |   ꔷ   |
-                |       |
-                 -------
-                """;
-        String dice2 = """   
-                 -------
-                | ꔷ     |
-                |       |
-                |     ꔷ |
-                 -------
-                """;
-        String dice3 = """   
-                 --------
-                | ꔷ      |
-                |   ꔷ    |
-                |      ꔷ |
-                 --------
-                """;
-        String dice4 = """   
-                 --------
-                | ꔷ     ꔷ |
-                |        |
-                | ꔷ     ꔷ |
-                 --------
-                """;
-        String dice5 = """   
-                 -------
-                | ꔷ    ꔷ |
-                |   ꔷ    |
-                | ꔷ    ꔷ |
-                 -------
-                """;
-        String dice6 = """   
-                 --------
-                | ꔷ    ꔷ |
-                | ꔷ    ꔷ |
-                | ꔷ    ꔷ |
-                 --------
-                """;
-        switch(roll){
-            case 1 -> System.out.println(dice1);
-            case 2 -> System.out.println(dice2);
-            case 3 -> System.out.println(dice3);
-            case 4 -> System.out.println(dice4);
-            case 5 -> System.out.println(dice5);
-            case 6 -> System.out.println(dice6);
-            default -> System.out.println("Invaild roll");
-        }
-    }
-}
+//         System.out.println(" ");
+//         // DECLARE VARIABLES
+//         // GET # OF DICE FROM USER
+//         // CHECK IF # OF DICE > 0
+//         // ROLL ALL DICE
+//         // GET THE TOTAL
+//         // DISPALY ASSII OF DICE
+//     }
+//     static void printDie(int roll){
+//         String dice1 = """   
+//                  -------
+//                 |       |
+//                 |   ꔷ   |
+//                 |       |
+//                  -------
+//                 """;
+//         String dice2 = """   
+//                  -------
+//                 | ꔷ     |
+//                 |       |
+//                 |     ꔷ |
+//                  -------
+//                 """;
+//         String dice3 = """   
+//                  --------
+//                 | ꔷ      |
+//                 |   ꔷ    |
+//                 |      ꔷ |
+//                  --------
+//                 """;
+//         String dice4 = """   
+//                  --------
+//                 | ꔷ     ꔷ |
+//                 |        |
+//                 | ꔷ     ꔷ |
+//                  --------
+//                 """;
+//         String dice5 = """   
+//                  -------
+//                 | ꔷ    ꔷ |
+//                 |   ꔷ    |
+//                 | ꔷ    ꔷ |
+//                  -------
+//                 """;
+//         String dice6 = """   
+//                  --------
+//                 | ꔷ    ꔷ |
+//                 | ꔷ    ꔷ |
+//                 | ꔷ    ꔷ |
+//                  --------
+//                 """;
+//         switch(roll){
+//             case 1 -> System.out.println(dice1);
+//             case 2 -> System.out.println(dice2);
+//             case 3 -> System.out.println(dice3);
+//             case 4 -> System.out.println(dice4);
+//             case 5 -> System.out.println(dice5);
+//             case 6 -> System.out.println(dice6);
+//             default -> System.out.println("Invaild roll");
+//         }
+//     }
+// }
 
-public class Main2{
-    public static void main(String[] args){
-         System.out.println(" ");
-    }
-} 
+// public class Main2{
+//     public static void main(String[] args){
+//         int[] nums = {1,3,4,56,6,23,33,5};
+//         int target = 56;
+//         for(int i = 0;i < nums.length;i++){
+//             if(target == nums[i]){
+//                 System.out.println(i);
+//             }
+//             //System.out.println(i);
+//         }
+//         //System.out.println(" ");
+//     }
+// } 
 
 // public class Main2{
 //     public static void main(String[] args){
