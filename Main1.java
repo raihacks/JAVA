@@ -191,20 +191,31 @@ import java.util.Random;
 //     }
 // }
 
-public class Main1{
-    public static void main(String[] args){
-
-    }
+//public class Main1{
+//    public static void main(String[] args){
+//    }
     // static double addNum(double num1, double num2){
     //     return num1 +num2;
     // }
     // static double addNum(double num1, double num2){
     //     return num1 +num2 ;
     // }
-    static string bakePizza(){
-        
-    }
-}
+    // static string bakePizza(){      
+//    }
+//}
+
+// public class Main1{
+//     static int x = 3; //CLASS variable
+//     public static void main(String[] args){
+//         int x = 1; //LOCAL variable
+//         System.out.println(x);
+//         doSomething();
+//     }
+//     static void doSomething(){
+//         int x = 2; //LOCAL variable
+//         System.out.println(x);
+//     }
+// }
 
 // public class Main1{
 //     public static void main(String[] args){
