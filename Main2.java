@@ -279,11 +279,52 @@
 //     }
 // }
 
-public class Main2{
-    public static void main(String[] args){
-        System.out.println(" ");
-    }
-}
+//quzi game
+// public class Main2{
+//     public static void main(String[] args){
+//         String[] questions ={"1. What's the capital of Australia?",
+//                             "2. Which planet is known as the Red Planet?",
+//                             "3. What’s the name of the fictional wizarding school in the Harry Potter series?",
+//                             "4. Which country is famous for inventing pizza?",
+//                             "5. Who wrote the play “Romeo and Juliet”?"};
+//         String[][] options ={
+//             {"A). Sydney","B). Melbourne","C). Canberra","D). Brisbane"}, 
+//             {"A). Venus","B). Mars","C). Jupiter","D). Saturn"},
+//             {"A). Durmstrang","B). Hogwarts","C). Beauxbatons","D). Ilvermorny"},
+//             {"A). Greece","B). Spain","C). Italy","D). France"},
+//             {"A). Charles Dickens","B). George Orwell","C). William Shakespeare","D). Jane Austen"}
+//         };
+//         char[] answers = {'C', 'B', 'B', 'C', 'C'};
+//         int score = 0;
+//         char guess;
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("-------------------------");
+//         System.out.println("Welcome to the quzi game!");
+//         System.out.println("-------------------------"); 
+//         for(int i =0; i<questions.length;i++){
+//             System.out.println(questions[i]);
+//             for(String option: options[i]){
+//                     System.out.println(option);
+//             }
+//             System.out.println("Enter your options: ");
+//             guess = sc.next().toUpperCase().charAt(0);;
+//             if(guess == answers[i]){
+//                System.out.println("-------");
+//                System.out.println("CORRECT");
+//                System.out.println("-------"); 
+//                score ++;
+//             }
+//             else{
+//                System.out.println("------");
+//                System.out.println("WORNG!");
+//                System.out.println("------"); 
+//             }
+//         }
+//         System.out.println("------"); 
+//         System.out.println("Your final score is "+score); 
+//         System.out.println("------"); 
+//     }
+// }
 
 // public class Main2{
 //     public static void main(String[] args){
