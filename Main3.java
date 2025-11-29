@@ -101,11 +101,18 @@ import java.util.Random;
 //     }
 // }
 
-public class Main3{
-    public static void main(String[] args){
-        System.out.println(" ");
-    }
-}
+// public class Main3{
+//     int x = 5;
+//     int y = 4;
+//     public static void main(String[] args){
+//         Main3 myObj = new Main3();
+//         Main3 myObj1 = new Main3();
+//         Main3 myObj2 = new Main3();
+//         System.out.println(myObj.x);
+//         System.out.println(myObj1.y);
+//         System.out.println(myObj2.x);
+//     }
+// }
 
 // public class Main3{
 //     public static void main(String[] args){
