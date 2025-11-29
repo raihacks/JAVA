@@ -219,6 +219,40 @@
 
 // public class Main2{
 //     public static void main(String[] args){
-//          System.out.println(" ");
+//         System.out.println(add(1,2,3,4,5));
+//         //add(1,2,3,4,5);
+//     }
+//     static int add(int... numbres){ // ...(ellipsis) packs all variable numbers into an array
+//         //System.out.println(numbres);
+//         int sum=0;
+//         for(int numbre: numbres){
+//             sum+=numbre;
+//         }
+//         return sum;
 //     }
 // }
+
+// public class Main2{
+//     public static void main(String[] args){
+//         System.out.println(avrage());
+//     }
+//     static double avrage(double... nums){
+//         double sum = 0;
+//         if(nums.length ==0 ){
+//             return 0;
+//         }
+//         for(double num : nums){
+//             sum += num;
+//         }
+//         return sum/nums.length;
+//     }
+// }
+
+
+
+// public class Main2{
+//     public static void main(String[] args){
+//         System.out.println(" ");
+//     }
+// }
+
