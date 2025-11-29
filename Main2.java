@@ -248,6 +248,22 @@
 //     }
 // }
 
+// public class Main2{
+//     public static void main(String[] args){
+//         String[] careThings ={"hair-brush", "oil", "bottle", "nivea"};
+//         String[] electricThings = {"mouse", "cpu", "phone", "lamp"};
+//         String[] studyThings = {"pen", "book", "jorunal", "scale"};
+//         String[][] things = {careThings, electricThings, studyThings};
+//         things[2][3] = "to-doList";
+//         for (String[] thing :things){
+//             for (String thin : thing){
+//                 System.out.print(thin + "  ");
+//             }
+//             System.out.println();
+//         }               
+//     }
+// }
+
 
 
 // public class Main2{
