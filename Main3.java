@@ -177,6 +177,24 @@ import java.util.Random;
 
 // public class Main3{
 //     public static void main(String[] args){
+//         // Car car3 = new Car("mustang", "bule");
+//         // Car car1 = new Car("Corvette", "red");
+//         // Car car2 = new Car("charger", "black");
+//         // Car[] cars = {car3, car1, car2};
+//         Car[] cars = {new Car("mustang", "bule"),
+//                       new Car("Corvette", "red"),
+//                       new Car("charger", "black")};
+//         for(Car car : cars){
+//             car.color = "black";
+//         }
+//         for(Car car : cars){
+//             car.drive();
+//         }
+//     }
+// }
+
+// public class Main3{
+//     public static void main(String[] args){
 //         System.out.println(" ");
 //     }
 // }
