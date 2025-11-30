@@ -195,6 +195,17 @@ import java.util.Random;
 
 // public class Main3{
 //     public static void main(String[] args){
+//         Friend friend1 = new Friend(" ");
+//         Friend friend3 = new Friend(" ");
+//         Friend friend2 = new Friend(" ");
+//         Friend friend4 = new Friend(" ");
+//         Friend friend5 = new Friend(" ");
+//         Friend.showFriends();
+//     }
+// }
+
+// public class Main3{
+//     public static void main(String[] args){
 //         System.out.println(" ");
 //     }
 // }
