@@ -20,4 +20,18 @@
 //     }
 // }
 
+// public class Main{
+//     public static void main(String[] args){
+//         Car car = new Car("ford", "mustang", 2004, "bule");
+//         Car car1 = new Car("Chevrolet", "Corvette", 2026, "Red");
+//         System.out.println(car);
+//         System.out.println(car1);
+//         //System.out.println(car.color + " " + car.year + " " + car.model + " " + car.make + " ");
+//     }
+// }
 
+public class Main{
+    public static void main(String[] args){
+        
+    }
+}
