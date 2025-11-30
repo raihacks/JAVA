@@ -114,21 +114,44 @@ import java.util.Random;
 //     }
 // }
 
+// public class Main3{
+//     public static void main(String[] args){
+//         Car car = new Car();
+//         // System.out.println(car.make);
+//         // System.out.println(car.model);
+//         // System.out.println(car.year);
+//         // System.out.println(car.price);
+//         // System.out.println(car.isRunning);
+//         // car.start();
+//         // System.out.println(car.isRunning);
+//         // car.stop();
+//         // System.out.println(car.isRunning);
+//         car.drive();
+//         car.brake();
+//     }
+// }
+
 public class Main3{
     public static void main(String[] args){
-        Car car = new Car();
-        // System.out.println(car.make);
-        // System.out.println(car.model);
-        // System.out.println(car.year);
-        // System.out.println(car.price);
-        // System.out.println(car.isRunning);
-        // car.start();
-        // System.out.println(car.isRunning);
-        // car.stop();
-        // System.out.println(car.isRunning);
-        car.drive();
-        car.brake();
-    }
+        Student student = new Student("anya", 18, 9.8);
+        Student student1 = new Student("sid", 19, 7.4);
+        Student student2 = new Student("loyd", 29, 10.00);
+        // System.out.println(student.name);
+        // System.out.println(student.age);
+        // System.out.println(student.gpa);
+        // System.out.println(student.isEnrolled);
+        // System.out.println(student1.name);
+        // System.out.println(student1.age);
+        // System.out.println(student1.gpa);
+        // System.out.println(student1.isEnrolled);
+        // System.out.println(student2.name);
+        // System.out.println(student2.age);
+        // System.out.println(student2.gpa);
+        // System.out.println(student2.isEnrolled);
+        student.study();
+        student1.study();
+        student2.study();
+    }    
 }
 
 // public class Main3{
