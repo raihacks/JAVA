@@ -131,28 +131,49 @@ import java.util.Random;
 //     }
 // }
 
-public class Main3{
-    public static void main(String[] args){
-        Student student = new Student("anya", 18, 9.8);
-        Student student1 = new Student("sid", 19, 7.4);
-        Student student2 = new Student("loyd", 29, 10.00);
-        // System.out.println(student.name);
-        // System.out.println(student.age);
-        // System.out.println(student.gpa);
-        // System.out.println(student.isEnrolled);
-        // System.out.println(student1.name);
-        // System.out.println(student1.age);
-        // System.out.println(student1.gpa);
-        // System.out.println(student1.isEnrolled);
-        // System.out.println(student2.name);
-        // System.out.println(student2.age);
-        // System.out.println(student2.gpa);
-        // System.out.println(student2.isEnrolled);
-        student.study();
-        student1.study();
-        student2.study();
-    }    
-}
+// public class Main3{
+//     public static void main(String[] args){
+//         Student student = new Student("anya", 18, 9.8);
+//         Student student1 = new Student("sid", 19, 7.4);
+//         Student student2 = new Student("loyd", 29, 10.00);
+//         // System.out.println(student.name);
+//         // System.out.println(student.age);
+//         // System.out.println(student.gpa);
+//         // System.out.println(student.isEnrolled);
+//         // System.out.println(student1.name);
+//         // System.out.println(student1.age);
+//         // System.out.println(student1.gpa);
+//         // System.out.println(student1.isEnrolled);
+//         // System.out.println(student2.name);
+//         // System.out.println(student2.age);
+//         // System.out.println(student2.gpa);
+//         // System.out.println(student2.isEnrolled);
+//         student.study();
+//         student1.study();
+//         student2.study();
+//     }    
+// }
+
+// public class Main3{
+//     public static void main(String[] args){
+//         User user = new User("aforanya");
+//         User user1 = new User("lforloyd", "lforloyd1234@gmail.com");
+//         User user2 = new User("yforyor", "yforyor1234@gmail.com", 28);
+//         User user3 = new User();
+//         // System.out.println(user.username);
+//         // System.out.println(user.email);
+//         // System.out.println(user.age);
+//         // System.out.println(user1.username);
+//         // System.out.println(user1.email);
+//         // System.out.println(user1.age);
+//         // System.out.println(user2.username);
+//         // System.out.println(user2.email);
+//         // System.out.println(user2.age);
+//         System.out.println(user3.username);
+//         System.out.println(user3.email);
+//         System.out.println(user3.age);
+//     }
+// }
 
 // public class Main3{
 //     public static void main(String[] args){
