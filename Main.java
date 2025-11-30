@@ -41,13 +41,28 @@
 //     }
 // }
 
-public class Main{
-    public static void main(String[] args){
-        Rabbit rabbit = new Rabbit();
-        Fish fish = new Fish();
-        Hawk hawk = new Hawk();
-        rabbit.flee();
-        fish.flee();
-        hawk.hunt();
-    }
-}
+// public class Main{
+//     public static void main(String[] args){
+//         Rabbit rabbit = new Rabbit();
+//         Fish fish = new Fish();
+//         Hawk hawk = new Hawk();
+//         rabbit.flee();
+//         fish.flee();
+//         hawk.hunt();
+//     }
+// }
+
+// public class Main{
+//     public static void main(String[] args){
+//         Car car = new Car();
+//         Bike bike = new Bike();
+//         Boat boat = new Boat();
+//         Vehicle[] vehicles = {car, bike, boat};
+//         for(Vehicle vehicle : vehicles){
+//             vehicle.go();
+//         }
+//         // car.go();
+//         // bike.go();
+//         // boat.go();
+//     }
+// }
