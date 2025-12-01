@@ -113,12 +113,23 @@ import java.util.Scanner;
 //     }
 //}
 
-public class Main{
-    public static void main(String[] args){
-        Car car = new Car("Corvette", 2025, "V8");
-        System.out.println(car.model);
-        System.out.println(car.year);
-        System.out.println(car.engine.type);
-        car.start();
-    }
-}
+// public class Main{
+//     public static void main(String[] args){
+//         Car car = new Car("Corvette", 2025, "V8");
+//         System.out.println(car.model);
+//         System.out.println(car.year);
+//         System.out.println(car.engine.type);
+//         car.start();
+//     }
+// }
+
+// public class Main{
+//     public static void main(String[] args){
+//         //int a = 123;
+//         Integer a = new Integer(123);
+//         Double b = new Double(123.23);
+//         Character c = new Character('!');
+//         Boolean d = new Boolean(true);
+//     }
+// }
+
