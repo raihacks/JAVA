@@ -88,3 +88,12 @@ import java.util.Scanner;
 //         }
 //     }
 // }
+
+// public class Main{
+//     public static void main(String[] args){
+//         Car car = new Car("Ford", "Bule", 590000);
+//         car.setColor("red");
+//         car.setPrice(12345678);
+//         System.out.println(car.getModel() + " " + car.getColor() + " "+ car.getPrice());
+//     }
+// }
