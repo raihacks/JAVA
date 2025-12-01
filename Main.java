@@ -1,3 +1,4 @@
+import java.util.Scanner;
 // public class Main {
 //     public static void main(String[] args){
 //         // Student student = new Student("anya", "foger", 3.8);
@@ -64,5 +65,26 @@
 //         // car.go();
 //         // bike.go();
 //         // boat.go();
+//     }
+// }
+
+// public class Main{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         // Cat cat = new Cat();
+//         // Dog dog = new Dog();
+//         // cat.speak();
+//         // dog.speak();
+//         Animal animal;
+//         System.out.println("would u like a dog(1) or a cat(2):");
+//         int choice = sc.nextInt();
+//         if(choice == 1){
+//             animal = new Dog();
+//             animal.speak();
+//         }
+//         else{
+//             animal = new Cat();
+//             animal.speak();
+//         }
 //     }
 // }
