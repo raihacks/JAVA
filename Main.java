@@ -98,17 +98,27 @@ import java.util.Scanner;
 //     }
 // }
 
+// public class Main{
+//     public static void main(String[] args){
+//         Book book1 = new Book("XYZ",123);
+//         Book book2 = new Book("ABC",456);
+//         Book book3 = new Book("QWE",678);
+//         Book book4 = new Book("BNM",789);
+//         Book[] books ={book1, book2, book3, book4};
+//         // for(Book book : books){
+//         // System.out.println(book.displayInfo());
+//         // }
+//         Library library = new Library("anya", 2026, books);
+//         library.displayInfo();
+//     }
+//}
+
 public class Main{
     public static void main(String[] args){
-        Book book1 = new Book("XYZ",123);
-        Book book2 = new Book("ABC",456);
-        Book book3 = new Book("QWE",678);
-        Book book4 = new Book("BNM",789);
-        Book[] books ={book1, book2, book3, book4};
-        // for(Book book : books){
-        // System.out.println(book.displayInfo());
-        // }
-        Library library = new Library("anya", 2026, books);
-        library.displayInfo();
+        Car car = new Car("Corvette", 2025, "V8");
+        System.out.println(car.model);
+        System.out.println(car.year);
+        System.out.println(car.engine.type);
+        car.start();
     }
 }
