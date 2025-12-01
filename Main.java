@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 // public class Main {
 //     public static void main(String[] args){
 //         // Student student = new Student("anya", "foger", 3.8);
@@ -158,6 +159,27 @@ import java.util.ArrayList;
 //             foods.add(food);
 //         }
 //         System.out.println(foods);
+//     }
+// }
+
+
+// public class Main{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         try{
+//             System.out.println("Enter a number: ");
+//             int number = sc.nextInt();
+//             System.out.println(number);
+//         }
+//         // catch(InputMismatchException e){
+//         //     System.out.println("That wasn't a number!");
+//         // }
+//         // catch(ArithmeticException e){
+//         //     System.out.println("YOU CAN'T DIVIDE BY ZERO");
+//         // }
+//         catch(Exception e){
+//             System.out.println("Something went wrong!");
+//         }
 //     }
 // }
 
