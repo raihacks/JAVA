@@ -183,3 +183,19 @@ import java.util.InputMismatchException;
 //     }
 // }
 
+// import java.io.FileWriter;
+// import java.io.IOException;
+// public class Main{
+//     public static void main(String[] args){
+//         try(FileWriter writer = new FileWriter("test.txt")){
+//             writer.write("i like nothing");
+//             System.out.println("File has been written");
+//         }
+//         catch(FileNotFoundException e){
+//             System.out.println("Could not locate file location");
+//         }
+//         catch(IOException e){
+//             System.out.println("Could not write file");
+//         }
+//     }
+// }
