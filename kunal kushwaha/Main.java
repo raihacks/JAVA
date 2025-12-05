@@ -1,14 +1,24 @@
-// public class Main{
-//     public static void main(Strings[] args){
-//         Student[] student = new Student[];
-//         Student[] student1 = new Student(12 ,"anya" ,);
-//         Student[] student2= new Student();
-//         Student[] student3 = new Student();
-//         Student[] student4 = new Student();
-//     }
-//     class Student{
-//         int[] rollno = new int[5];
-//         String[] name = new String[5];
-//         float[] marks = new float[5];
-//     }  
-// }
+public class Main{
+    public static void main(String[] args){
+        Student student = new Student(12, "Anya", 123f);
+        System.out.println(student);
+    } 
+}
+class Student{
+    int rollno;
+    String name;
+    float marks;
+    Student(int rollno, String name, float marks){
+        this.rollno = rollno;
+        this.name = name;
+        this.marks = marks;
+    }
+    @Override
+    public String toString(){
+        return "Student { rollno = " + rollno +
+               ", name = '" + name + '\'' +
+               ", marks = " + marks +
+               " }";
+    }
+} 
+
